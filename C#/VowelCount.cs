@@ -10,7 +10,7 @@ public static class Kata
       int vowelCount = 0;
       for (int i = 0; i < str.Length; i++){
         if (str[i]  == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'){
-                vowelCount++;
+            vowelCount++;
         }
       }
       return vowelCount;
